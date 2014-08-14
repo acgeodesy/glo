@@ -1,6 +1,6 @@
 # GLONASS Frequency Channels Service
 ##Introduction
-As we know, GLONASS is different from GPS, especially the FDMA. We need to determine the frequecy channels of 24 GLONASS satellites firstly if we want to using GLONASS data to positioning, navigation,timing and do something else such as ionosphere modeling, troposphere monitoring and so on. Obviously, GNSS receiver can receive the frequency channels through broadcast ephemeris. We actually don't have to use the navigation file to calculate frequencies of satellites everytime when we process data. Because the frequency channels won't be changed until the satellite is replaced by a new satellite.
+As we know, GLONASS is different from GPS, especially the FDMA. We need to determine the frequecy channels of 24 GLONASS satellites firstly if we want to using GLONASS data for positioning, navigation,timing and doing something else such as ionosphere modeling, troposphere monitoring and so on. Obviously, GNSS receiver can receive the frequency channels through broadcast ephemeris. We actually don't have to use the navigation file to calculate frequencies of satellites everytime when we process data. Because the frequency channels won't be changed until the satellite is replaced by a new satellite.
 
 A program is developed and running on server. It can follow the official information of GLONASS and generate a file(glo.dat) which records frequency channels of GLONASS satellites. The file is checked every 2 hours and updated everyday automatically.
 
