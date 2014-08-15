@@ -13,7 +13,7 @@ You would have a well understanding about this frequency channels service.
 Just input <b>make</b> to compile the program.
 
 #####glo.dat
-This file should be updated when you used it. 
+This file should be updated when you use it. 
 URL: http://geodesy.cn/glonass/glo.dat
 ##Usage
 ```
