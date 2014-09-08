@@ -1,0 +1,12 @@
+If your compiler is intel fortran, you should:
+ifort -free -c glo_freqchan.f90
+ifort -free -c test_glofc.f90
+ifort -free *.o -o test_glofc
+./test_glofc
+
+If your compiler is gfortran, you should:
+If your compiler is intel fortran, you should:
+gfortran -g -Wall -c glo_freqchan.f90
+gfortran -g -Wall -c test_glofc.f90
+gfortran -g -Wall *.o -o test_glofc
+./test_glofc

@@ -1,0 +1,10 @@
+First, in your linux bash, type:
+
+chmod +x glo_fc.py
+
+Then, type (for example):
+./glo_fc.py 2013 3 10
+2013 is year, 3 is month, 10 is day
+
+If you wanna get help for this python scripts, you can type:
+./glo_fc.py, or ./glo_fc.py -h
