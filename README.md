@@ -4,17 +4,17 @@ As we know, GLONASS is different from GPS, especially the FDMA. We need to deter
 
 A program is developed and running on server. It can follow the official information of GLONASS and generate a file(glo.dat) which records frequency channels of GLONASS satellites. The file is checked every 2 hours and updated everyday automatically.
 
-An open source code is provided for calculating freqency channels of GLONASS satellites. The package contains 4 files totally, including README.md, Makefile, glo.dat, and main.cpp.
+An open source code is provided for calculating freqency channels of GLONASS satellites. The main package contains 4 files, including README.md, Makefile, glo.dat, and main.cpp. Also, the other 4 languages(Matlab, Fortran, Python and C) are implemented for this. 
 
 #####README.md
 You would have a well understanding about this frequency channels service.
 
 #####Makefile
-Just input <b>make</b> to compile the program.
+Just input **make** to compile the program.
 
 #####glo.dat
 This file should be updated when you use it. 
-URL: http://geodesy.cn/glonass/glo.dat
+URL: <http://geodesy.cn/glonass/glo.dat>
 ##Usage
 ```
 cd glo
@@ -24,13 +24,12 @@ cd bin/Debug/
 ./glo
 ```
 ##More languages implementation
-- <b>Matlab</b> by Hong HU
-- <b>Fortran</b> by Feng ZHOU
-- <b>Python</b> by Feng ZHOU
-- <b>C</b> by Xu TANG
+- **Matlab** by Hong HU
+- **Fortran** by Feng ZHOU
+- **Python** by Feng ZHOU
+- **C** by Xu TANG
 
-These code can be downloaded at http://geodesy.cn/glonass/index.xml
-
+Home Page: <http://geodesy.cn/glonass/index.xml>
 
 
 
